@@ -1,0 +1,183 @@
+body{
+    background-color: rgb(53, 52, 52);
+    color:white;
+}    
+.intro{
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    width:60%;
+}
+header{
+    background-image: url(https://www.bollywoodhungama.com/wp-content/uploads/2022/11/12th-Fail-2.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+nav{
+    /* background-image: linear-gradient(rgba(61, 191, 214, 0.651),rgba(144, 68, 173, 0.651)); */
+    background-color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1em;
+}
+.sec1 h2{
+    font-size:30px;
+    color: rgb(247, 246, 246);
+    width:fit-content;
+    font-family: cursive;
+}
+div{
+    border: solid 0px;
+    display:inline-block;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(92, 90, 90);
+    box-shadow: 0px 0px 50px black ;
+}
+.container{
+    display:flex;
+    box-shadow: none;
+    background-color: transparent;
+    border:none;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.div1{
+    padding: 20px;
+    font-size: larger;
+    width:20%;
+    display:flex;
+    justify-content: left;
+}
+.div2{
+    padding: 20px;
+    width:65%;
+    font-size: large;
+    justify-content: right;
+}
+.div1:hover,.div2:hover{
+    background-color:rgb(75, 73, 73);
+    border: 0px solid;
+}
+
+
+.sec1 video{
+    width:75%;
+    align-items: center;
+    border:solid;
+}
+.trailer{
+    width:25%;
+    border:none;
+    box-shadow: none;
+    background-color: rgb(53, 52, 52);
+    display:inline
+}
+.trailer h3{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .images{
+    display:flex;
+    justify-content: center;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: transparent;
+    border:none;
+    filter:brightness(60%)
+}
+.img1{
+    border: solid 1px;
+    overflow:hidden;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.img2{
+    border: solid 1px;
+    border-radius: 5px;
+}
+.img1:hover{
+    transform: scale(1.03);
+    filter: brightness(110%);
+    cursor: pointer;
+    transition: ease-in 0.3s;
+    overflow:visible
+}
+.img2:hover{
+    transform: scale(1.03);
+    filter: brightness(120%);
+    cursor: pointer;
+    transition: ease-in 0.3s;
+    overflow:visible
+} */
+/* styles.css */
+
+.cast-content{
+    display:flex;
+    justify-content:center;
+    box-shadow: none;
+    background-color: transparent;
+    border:none;
+    margin:0;
+    }
+.col-content{
+    position: relative;
+    filter:brightness(95%);
+    transition: all 0.3s;
+    box-shadow: none;
+    background-color: transparent;
+    border:none;
+    margin-right: 20px;
+}
+.col-content img{
+    height: 300px;
+    border-radius: 27px;
+    width: 100%;
+}
+.col-content h5{
+    position: absolute;
+    font-size: 30px;
+    font-weight:500;
+    font-style: oblique;
+    left: 20px;
+    bottom: 80px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:10%;
+}
+.col-content p{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 50px;
+    bottom: 60px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.col-content:hover{
+    filter: brightness(110%);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.reviews{
+    box-shadow: none;
+    background-color: transparent;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.col{
+    width:calc(33.33%-20px);
+    box-shadow: none;
+    margin:10px;
+    border:2px solid white;
+    padding:30px;
+}
+
+
